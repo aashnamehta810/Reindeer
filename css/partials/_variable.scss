@@ -1,0 +1,133 @@
+// Variable and reset css are here
+$globleFont: 'Aeonik Pro';
+$titleFonts: 'Aeonik Pro';
+
+// $icomoon: "icomoon";
+$bodyBG: #f7f5f3;
+$light: #fff;
+$black: #000;
+$primary: #110F2C;
+$secondary: #18163E;
+$ternary: #1D1A49;
+$opt-1: #515067;
+$opt-2: #667085;
+$opt-3: #1D2939;
+$opt-4: #565656;
+$opt-5: #878692;
+$opt-6: #2E3032;
+$para: #000;
+$ghost: transparent;
+$borderBg: #DBDEDE;
+$borderBox: #E7E7E8;
+$border: 1px solid $borderBg;
+$active: #F3D450;
+$active11: #FDB022;
+$green: #12B76A;
+$active-1: #D4C7B6;
+$active-2: #AA8852;
+$active-4: #F1EDE9;
+$active-3: #F4D86C;
+$active-5: #7D643C;
+$base-font-size: 16px;
+$i: unquote("!important");
+
+// px to rem converter
+// @function rem($to-size, $from-size: $base-font-size) {
+//     @if $to-size == 0px { @return 0 }
+//     @return $to-size / $from-size * 1rem;
+// }
+@mixin transitionDelay {
+    transition: all 0.3s;
+}
+// @include transitionDelay;
+@mixin input-placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}
+// 
+// @include dotonend($numbofline: 4);
+@mixin dotonend($numbofline: 3) {
+    display: -webkit-box;
+    -webkit-line-clamp: $numbofline;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+// z-index: 1 to 10;
+// @for $z from 1 through 10 {
+//     .z-index#{$z} {
+//         z-index: ($z + 0);
+//     }
+// } 
+
+:root {
+    scroll-behavior: inherit;
+}
+// reset update here
+html { 
+    box-sizing: border-box; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -o-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -moz-text-rendering: optimizelegibility; text-rendering: optimizelegibility; scroll-behavior: smooth;
+}
+*,:after,:before {
+    box-sizing: inherit;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, body, h1, h2, h3, h4, h5, h6, ol, p, ul {
+    margin: 0; padding: 0; font-weight: normal;
+}
+body {
+    font-size: rem(16px); background: $bodyBG; font-family: $globleFont; font-weight: normal; color: $para;
+}
+.ft-normal { font-style: normal; }
+input { outline: none }
+a, button {
+    outline: none!important;
+    text-decoration: none;
+    &:active,
+    &:visited,
+    &:focus,
+    &:hover {
+        outline: none!important;
+        text-decoration: none;
+        box-shadow: none !important;
+    }
+}
+// @include dotonend($numbofline: 4);
+@mixin dotonend($numbofline: 3) {
+    display: -webkit-box;
+    -webkit-line-clamp: $numbofline;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.wide { display: block; width: 100% }
+.ov-h { overflow: hidden; }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { 
+    font-family: $titleFonts;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+@-moz-document url-prefix() {
+    html,body{scrollbar-width: none; }
+}
+body {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+// em { font-family: $titleFontsem; }
+p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #F2F2F3;
+    margin-bottom: rem(30px);
+    font-weight: 400;
+    // font-family: $globleFontLight;
+    strong {
+        font-weight: bold;
+    }
+    &:last-child {
+        margin-bottom: 0;
+    }
+}

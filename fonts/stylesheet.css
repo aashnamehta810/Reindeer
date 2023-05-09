@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Aeonik Pro';
+    src: url('AeonikPro-BlackItalic.eot');
+    src: url('AeonikPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('AeonikPro-BlackItalic.woff2') format('woff2'),
+        url('AeonikPro-BlackItalic.woff') format('woff'),
+        url('AeonikPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aeonik Pro';
+    src: url('AeonikPro-Light.eot');
+    src: url('AeonikPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('AeonikPro-Light.woff2') format('woff2'),
+        url('AeonikPro-Light.woff') format('woff'),
+        url('AeonikPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aeonik Pro';
+    src: url('AeonikPro-BoldItalic.eot');
+    src: url('AeonikPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('AeonikPro-BoldItalic.woff2') format('woff2'),
+        url('AeonikPro-BoldItalic.woff') format('woff'),
+        url('AeonikPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aeonik Pro';
+    src: url('AeonikPro-Bold.eot');
+    src: url('AeonikPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AeonikPro-Bold.woff2') format('woff2'),
+        url('AeonikPro-Bold.woff') format('woff'),
+        url('AeonikPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aeonik Pro';
+    src: url('AeonikPro-LightItalic.eot');
+    src: url('AeonikPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('AeonikPro-LightItalic.woff2') format('woff2'),
+        url('AeonikPro-LightItalic.woff') format('woff'),
+        url('AeonikPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aeonik Pro';
+    src: url('AeonikPro-Medium.eot');
+    src: url('AeonikPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('AeonikPro-Medium.woff2') format('woff2'),
+        url('AeonikPro-Medium.woff') format('woff'),
+        url('AeonikPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aeonik Pro';
+    src: url('AeonikPro-MediumItalic.eot');
+    src: url('AeonikPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('AeonikPro-MediumItalic.woff2') format('woff2'),
+        url('AeonikPro-MediumItalic.woff') format('woff'),
+        url('AeonikPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aeonik Pro';
+    src: url('AeonikPro-Regular.eot');
+    src: url('AeonikPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('AeonikPro-Regular.woff2') format('woff2'),
+        url('AeonikPro-Regular.woff') format('woff'),
+        url('AeonikPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aeonik Pro';
+    src: url('AeonikPro-RegularItalic.eot');
+    src: url('AeonikPro-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('AeonikPro-RegularItalic.woff2') format('woff2'),
+        url('AeonikPro-RegularItalic.woff') format('woff'),
+        url('AeonikPro-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aeonik Pro';
+    src: url('AeonikPro-ThinItalic.eot');
+    src: url('AeonikPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('AeonikPro-ThinItalic.woff2') format('woff2'),
+        url('AeonikPro-ThinItalic.woff') format('woff'),
+        url('AeonikPro-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aeonik Pro Air';
+    src: url('AeonikPro-Air.eot');
+    src: url('AeonikPro-Air.eot?#iefix') format('embedded-opentype'),
+        url('AeonikPro-Air.woff2') format('woff2'),
+        url('AeonikPro-Air.woff') format('woff'),
+        url('AeonikPro-Air.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aeonik Pro';
+    src: url('AeonikPro-Thin.eot');
+    src: url('AeonikPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('AeonikPro-Thin.woff2') format('woff2'),
+        url('AeonikPro-Thin.woff') format('woff'),
+        url('AeonikPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aeonik Pro Air';
+    src: url('AeonikPro-AirItalic.eot');
+    src: url('AeonikPro-AirItalic.eot?#iefix') format('embedded-opentype'),
+        url('AeonikPro-AirItalic.woff2') format('woff2'),
+        url('AeonikPro-AirItalic.woff') format('woff'),
+        url('AeonikPro-AirItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aeonik Pro';
+    src: url('AeonikPro-Black.eot');
+    src: url('AeonikPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('AeonikPro-Black.woff2') format('woff2'),
+        url('AeonikPro-Black.woff') format('woff'),
+        url('AeonikPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

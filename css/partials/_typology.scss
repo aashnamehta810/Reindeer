@@ -1,0 +1,13 @@
+.theme-btn {
+    background-color: transparent;
+    padding: 6px 18px;
+    border: 1px solid $opt-1;
+    border-radius: 100px;
+    letter-spacing: 0.015em;
+    color: $active-2;
+    font-weight: 700;
+    &:hover {
+        background-color: $active;
+        color: $opt-1;
+    }
+}

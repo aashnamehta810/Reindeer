@@ -1,0 +1,103 @@
+#eiframe { height: 2350px; }
+@media (min-width: 992px) {
+    
+}
+@media (min-width: 1300px) {
+    .container-fluid--full { max-width: calc(100vw - (100vw - 1250px)/2); margin-left: calc((100vw - 1250px)/2); }
+}
+@media (min-width: 1200px) {
+    .container-xl { max-width: 1135px; }
+    .container-footer { max-width: 1190px; }
+}
+
+@media (min-width: 1700px) {
+    .container-xl { max-width: 1640px; }
+    .g-20, .gy-20 { --bs-gutter-y: 2.5rem; }
+    .g-20, .gx-20 { --bs-gutter-x: 2.5rem; }
+    .g-37, .gy-37 { --bs-gutter-y: 2.313rem; }
+    .g-37, .gx-37 { --bs-gutter-x: 2.313rem; }
+    .g-30, .gy-30 { --bs-gutter-y: 1.875rem; }
+    .g-30, .gx-30 { --bs-gutter-x: 1.875rem; }
+}
+
+
+@media (max-width: 1400px) {
+    .section-center .bg-theme-dark { padding: 65px 100px 135px 130px; }
+    .footer-app img { max-width: 130px; }
+    footer .footer-app li + li { margin-left: 20px; }
+    footer .footer-container li:nth-child(3) { margin-left: 15px; }
+    .footer-app { justify-content: space-between; }
+}
+@media (max-width: 1399px) {
+    .section-center .form-holder.f-holder { width: calc(100% + 245px); }
+    .section-center .content-form .bunch-form { margin-left: 70px; }
+}
+@media (max-width: 1300px) {
+    .section-center .bg-theme-dark { padding: 65px 40px 135px 130px; }
+    .slider-conten { max-width: 100%; }
+    .bunch-form {
+        padding-left: 45px;
+    }
+    .loader-filler { margin-right: 35%; }
+    
+}
+
+@media (max-width: 1199px) {
+    .footer-app, footer .footer-container { justify-content: center; }
+    .footer-container { margin-bottom: 15px; }
+    .card-full::before, .card-full::after { content: none; }
+    .section-center .bg-theme-dark .inner-content h1 { font-size: 50px; line-height: 50px; }
+    .title-container .counter, .title-container .counter.no-min-width { min-width: inherit; }
+    .section-center .bg-theme-dark { padding: 65px 40px 135px; }
+    .section-center .form-holder { width: calc(100% + 15px); padding-left: 30px; }
+    .section-center .content-form .bunch-form { margin-left: 0; }
+    .section-center .form-holder.f-holder { width: 100%; }
+    .navbar-nav li .secure-select { display: none !important; }
+    .navbar-collapse { flex-basis: auto; }
+    #eiframe { height: 2900px; }
+}
+@media (min-width: 992px) {
+    .modal.modal-lg { --bs-modal-width: 716px; }
+}
+@media (max-width: 991px) {
+    .section-center .form-holder { width: 100%; padding-left: 0; }
+    .section-center .content-form { max-width: 100%; padding: 0 10px; }
+    .bunch-form { padding: 0 15px; text-align: center; }
+    .section-center .sub-title-single { justify-content: center; }
+    .loader-filler { margin-right: auto; }
+    header .navbar-nav li .email-right span, header .navbar-nav li .tel-right span { display: none; }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 767px) {
+    footer .footer-container { flex-flow: column; }
+    footer .footer-container > li:nth-child(2)::before { content: none; }
+    footer .footer-container > li:nth-child(2) { margin: 0; padding: 0; }
+    .section-center .single-title { font-size: 28px; line-height: 36px; }
+    .section-center .sub-title-single span { font-size: 16px; line-height: 24px; }
+    .navbar-brand svg { max-width: 150px; }
+    header nav > .container-xl { flex-wrap: nowrap !important; }
+    header .navbar-nav { flex-flow: nowrap; }
+    header .navbar-nav li .email-right svg, header .navbar-nav li .tel-right svg { width: 22px; height: 22px; }
+    .navbar-brand { padding-left: 8px; }
+    .navbar-nav { padding-right: 8px; }
+    
+    
+    .card-full .card-inner { padding: 45px 17px 50px; }
+    .figure-area img { max-width: 243px; }
+    .card-full { padding: 55px 0; }
+    .error-call.card-full .card-inner .ty-cotnent h1 { font-size: 38px; line-height: 40px; margin-bottom: 15px; display: block; }
+    .error-call .figure-area img { max-width: 192px; }
+    header .navbar > .container-xxl { flex-wrap: nowrap; }
+}
+@media (max-width: 568px) {
+    .footer-app img { max-width: 73px; }
+}
+@media (max-width: 370px) {
+    .section-center .sub-title-single span { font-size: 13px; line-height: 16px; }
+}
+@media (max-width: 359px) {
+    .section-center .single-title { margin-bottom: 0; }
+    .card-full .card-inner .eta-refund h2 { font-size: 22px; line-height: 24px; min-width: inherit; }
+    .eta-refund .error-btn { font-size: 16px; }
+}
